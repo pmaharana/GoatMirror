@@ -2,58 +2,79 @@
 <body>
     <table border="1">
         <tr id="opphand">
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
+            <th class="col-md-1">@*<img src="~/Images/blueempty.png" class="img-responsive" width="100%" />*@</th>
+            <th class="col-md-1" id="oppdeck"><img src="~/Images/deck.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1"><img src="~/Images/settrap.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1"><img src="~/Images/settrap.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1"><img src="~/Images/settrap.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1"><img src="~/Images/settrap.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1"><img src="~/Images/settrap.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1"><img src="~/Images/settrap.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1">@*<img src="~/Images/blueempty.png" class="img-responsive" width="100%" />*@</th>
         </tr>
         <tr id="oppbackrow">
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
+            <th class="col-md-1">@*<img src="~/Images/blueempty.png" class="img-responsive" width="100%" />*@</th>
+            <th class="col-md-1" id="oppgy"><img src="~/Images/graveyard.png" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1" id="oppspellzone5"><img src="~/Images/spelltrap.png" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1" id="oppspellzone4"><img src="~/Images/spelltrap.png" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1" id="oppspellzone3"><img src="~/Images/spelltrap.png" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1" id="oppspellzone2"><img src="~/Images/spelltrap.png" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1" id="oppspellzone1"><img src="~/Images/spelltrap.png" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1"><img src="~/Images/fusionzone.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1">@*<img src="~/Images/blueempty.png" class="img-responsive" width="100%" />*@</th>
+
         </tr>
         <tr id="oppfrontrow">
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
+            <th class="col-md-1">@*<img src="~/Images/blueempty.png" class="img-responsive" width="100%" />*@</th>
+            <th class="col-md-1" id="oppexiled"><img src="~/Images/exiled.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1" id="oppmonsterzone5"><img src="~/Images/monsterzone.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1" id="oppmonsterzone4"><img src="~/Images/monsterzone.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1" id="oppmonsterzone3"><img src="~/Images/monsterzone.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1" id="oppmonsterzone2"><img src="~/Images/monsterzone.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1" id="oppmonsterzone1"><img src="~/Images/monsterzone.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1"><img src="~/Images/field.png" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1">@*<img src="~/Images/blueempty.png" class="img-responsive" width="100%" />*@</th>
         </tr>
+    </table>
+    <div id="lifebar" >
+        <span>Your Life: <span id="playerlife">0000</span></span>
+        <span>Opponent Life: <span id="opplife">0000</span></span>
+    </div>
+
+    <table border="1">
+
         <tr id="playerfrontrow">
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
+            <th class="col-md-1">@*<img src="~/Images/blueempty.png" class="img-responsive" width="100%" />*@</th>
+            <th class="col-md-1"><img src="~/Images/field.png" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1" id="playermonsterzone1"><img src="~/Images/monsterzone.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1" id="playermonsterzone2"><img src="~/Images/monsterzone.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1" id="playermonsterzone3"><img src="~/Images/monsterzone.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1" id="playermonsterzone4"><img src="~/Images/monsterzone.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1" id="playermonsterzone5"><img src="~/Images/monsterzone.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1" id="playerexiled"><img src="~/Images/exiled.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1">@*<img src="~/Images/blueempty.png" class="img-responsive" width="100%" />*@</th>
         </tr>
         <tr id="playerbackrow">
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
+            <th class="col-md-1">@*<img src="~/Images/blueempty.png" class="img-responsive" width="100%" />*@</th>
+            <th class="col-md-1"><img src="~/Images/fusionzone.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1" id="playerspellzone1"><img src="~/Images/spelltrap.png" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1" id="playerspellzone2"><img src="~/Images/spelltrap.png" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1" id="playerspellzone3"><img src="~/Images/spelltrap.png" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1" id="playerspellzone4"><img src="~/Images/spelltrap.png" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1" id="playerspellzone5"><img src="~/Images/spelltrap.png" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1" id="playergy"><img src="~/Images/graveyard.png" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1">@*<img src="~/Images/blueempty.png" class="img-responsive" width="100%" />*@</th>
         </tr>
         <tr id="playerhand">
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
-            <th class="col-md-1">1</th>
+            <th class="col-md-1">@*<img src="~/Images/blueempty.png" class="img-responsive" width="100%" />*@</th>
+            <th class="col-md-1"><img src="~/Images/blueempty.png" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1"><img src="~/Images/kurribo.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1"><img src="~/Images/kurribo.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1"><img src="~/Images/kurribo.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1"><img src="~/Images/kurribo.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1"><img src="~/Images/kurribo.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1" id="playerdeck"><img src="~/Images/playerdeck.jpg" class="img-responsive" width="100%" /></th>
+            <th class="col-md-1">@*<img src="~/Images/blueempty.png" class="img-responsive" width="100%" />*@</th>
         </tr>
     </table>
 </body>

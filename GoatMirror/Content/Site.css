@@ -22,3 +22,15 @@ select,
 textarea {
     max-width: 280px;
 }
+
+#lifebar {
+    text-align: center;
+}
+
+#playerlife {
+    margin-right: 50px;
+}
+
+#opplife {
+    margin-left: 50px;
+}
